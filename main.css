@@ -1,0 +1,87 @@
+<style>
+
+body, html {
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    background-color: black;
+}
+
+#loading {
+    background: url('img/1.1.gif') no-repeat center center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+#jaw {
+    position: absolute;
+    width: 257px;
+    top: 730px;
+    left: 583px;
+    
+}
+
+#bubble {
+    position: absolute;
+    left: 1150px;
+    top: 400px
+}
+
+h1 {
+    position: absolute;
+    left: 12%;
+    right: auto;
+    font-family: sans-serif;
+    font-size: 80pt;
+    color: #ECBAFD;    
+}
+
+#video1 {
+    position: absolute;
+    top: 700px;
+}
+
+#video2 {
+    position: absolute;
+    top: 400px;
+}
+
+.selectDisable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.selectEnable { 
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+
+.bg {
+    position: absolute;
+    background-image: url(img/AnnHeadshot4.png);
+    width: 1480px;
+    height: 1200px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.p5Canvas {
+    position: absolute;
+    }
+    
+</style>
