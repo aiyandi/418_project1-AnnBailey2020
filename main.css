@@ -47,11 +47,13 @@ h1 {
 #video1 {
     position: absolute;
     top: 700px;
+    z-index: 900;
 }
 
 #video2 {
     position: absolute;
     top: 400px;
+    z-index: 900;
 }
 
 .selectDisable {
